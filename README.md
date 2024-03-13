@@ -9,8 +9,9 @@ The data was available in the cluster so we were able to access it without probl
 
 # New Backbone and Feature Extraction
 For this project we use a new backbone: [w2v-BERT2.0](https://huggingface.co/facebook/w2v-bert-2.0) for speech embedding extraction.
-![Example Image](Screenshot (85).png)
-
+![Example Image](https://github.com/shubh2001/DDMP-Project/blob/main/Screenshot%20(85).png)
+|:--:| 
+| *w2v-bert-2.0* |
 
 For this model we create a feature extraction [script](https://github.com/shubh2001/DDMP-Project/blob/main/main.py) which is based on @tiagoCuervo 's script [link](https://github.com/tiagoCuervo/fairseq/blob/main/examples/wav2itl/scripts/hubert_get_feats.py). Following changes were made:
 * We use **torchaudio** instead of soundfile.
