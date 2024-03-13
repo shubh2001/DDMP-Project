@@ -1,3 +1,9 @@
 # DDMP-Project 
 
-Don't read me
+Report on the tasks carried out between the 
+
+
+
+
+
+# Problems by Shub
