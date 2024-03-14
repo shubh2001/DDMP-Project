@@ -10,7 +10,7 @@ The CPC data was available in the cluster so we were able to access it without p
 
 # New Backbone and Feature Extraction
 For this project we use a new backbone: [w2v-BERT2.0](https://huggingface.co/facebook/w2v-bert-2.0) for speech embedding extraction.
-![Example Image](https://github.com/shubh2001/DDMP-Project/blob/main/Screenshot%20(85).png)
+![Example Image](https://github.com/shubh2001/DDMP-Project/blob/main/model.png)
 |:--:| 
 | *w2v-bert-2.0* |
 
@@ -29,7 +29,13 @@ ValueError: Cannot register duplicate task (cpc2).
 After figuring out the solution, only some minor errors arose which were then solved. We are now able to run the training on the cluster.
 
 # Figures on the training currently running
-
+![Example Image](https://github.com/shubh2001/DDMP-Project/blob/main/Training_%231.png)
+|:--:| 
+| *Training Results* |
+\
+![Example Image](https://github.com/shubh2001/DDMP-Project/blob/main/validatation_%231.png)
+|:--:| 
+| *Validation Results* |
 # Conlclusion
 Based on the results of this training, the model with the best performance is XXX
 
