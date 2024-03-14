@@ -1,11 +1,12 @@
 # DDMP-Project 
+Project: **Speech representations for predicting listeners perception**
 Report on the tasks carried out between the 19th of February and the 13th of March
 
 # Cluster connection
-Thanks to the authorization given by the university, we were able to set the VPN and collect to the cluster both from the machines in the classroom and our laptops.
+Thanks to the authorization given by the university, we were able to set the VPN and connect to the cluster both from the machines in the classroom and our laptops.
 
 # Data access
-The data was available in the cluster so we were able to access it without problems
+The CPC data was available in the cluster so we were able to access it without problems.
 
 # New Backbone and Feature Extraction
 For this project we use a new backbone: [w2v-BERT2.0](https://huggingface.co/facebook/w2v-bert-2.0) for speech embedding extraction.
@@ -17,7 +18,7 @@ For this model we create a feature extraction [script](https://github.com/shubh2
 * We use **torchaudio** instead of soundfile.
 * We resample all read audio files to **16,000 Hz** to align with the new backbone.
 
-Feature extraction was done on cluster with an interactive GPU environment and took roughly 50 minutes for a single train.x (x = {1,2,3})
+Feature extraction was done on cluster with an interactive GPU environment and took roughly 50 minutes for a single train.x file. (x = {1,2,3})
 
 # Creating a virtual work environment
 We created a YAML file to have the same setup for our conda virtual environment. We use this virtual environment to set the sequence modeling toolkit, fairseq, that we use to run our training.                                                                                
