@@ -1,5 +1,5 @@
 # DDMP-Project 
-Project: **Speech representations for predicting listeners perception**
+Project: **Speech representations for predicting listeners perception** \
 Report on the tasks carried out between the 19th of February and the 13th of March
 
 # Cluster connection
